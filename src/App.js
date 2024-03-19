@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./App.css"
-import Todolist from './TodoList';
 import TodoInput from './TodoInput';
+import Todolist from './TodoList';
 function App() {
   const [listTodo,setListTodo]=useState([]);
   let addList = (inputText)=>{
